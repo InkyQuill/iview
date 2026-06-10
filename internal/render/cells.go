@@ -6,8 +6,8 @@ import (
 	"image/png"
 	"io"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type CellsRenderer struct{}

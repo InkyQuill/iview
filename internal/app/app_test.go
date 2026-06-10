@@ -15,9 +15,9 @@ import (
 	"testing"
 	"time"
 
-	"iview/internal/render"
-	"iview/internal/source"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/render"
+	"github.com/InkyQuill/iview/internal/source"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 func TestRunFallsBackToCellsForUnsupportedTerminal(t *testing.T) {

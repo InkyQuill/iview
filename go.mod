@@ -1,4 +1,4 @@
-module iview
+module github.com/InkyQuill/iview
 
 go 1.26
 

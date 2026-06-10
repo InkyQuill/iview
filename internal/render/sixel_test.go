@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 func TestSixelRendererSupportedWithFakeLookup(t *testing.T) {

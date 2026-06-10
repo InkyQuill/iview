@@ -957,8 +957,8 @@ import (
 	"io"
 	"strings"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type Mode string
@@ -1054,8 +1054,8 @@ import (
 	"io"
 	"strings"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 const maxEncodedChunk = 4096
@@ -1135,8 +1135,8 @@ import (
 	"io"
 	"strings"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type ITerm2Renderer struct{}
@@ -1175,8 +1175,8 @@ import (
 	"image/png"
 	"io"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type CellsRenderer struct{}
@@ -1231,8 +1231,8 @@ import (
 	"os/exec"
 	"time"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type SixelRenderer struct {
@@ -1308,8 +1308,8 @@ import (
 	"strings"
 	"testing"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 func TestITerm2RendererWritesInlineImage(t *testing.T) {
@@ -1338,8 +1338,8 @@ import (
 	"strings"
 	"testing"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 func TestCellsRendererWritesANSIBlocks(t *testing.T) {

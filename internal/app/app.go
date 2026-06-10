@@ -7,10 +7,10 @@ import (
 	"io"
 	"time"
 
-	"iview/internal/imageio"
-	"iview/internal/render"
-	"iview/internal/source"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/render"
+	"github.com/InkyQuill/iview/internal/source"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type Config struct {

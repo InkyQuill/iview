@@ -8,8 +8,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 type Mode string

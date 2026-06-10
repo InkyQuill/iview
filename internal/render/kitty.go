@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"iview/internal/imageio"
-	"iview/internal/terminal"
+	"github.com/InkyQuill/iview/internal/imageio"
+	"github.com/InkyQuill/iview/internal/terminal"
 )
 
 const maxEncodedChunk = 4096

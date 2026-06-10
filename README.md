@@ -6,6 +6,12 @@ protocol support or ANSI color output.
 It renders terminal graphics when available and can fall back to ANSI color
 blocks. It does not convert images to ASCII.
 
+## Installation
+
+```sh
+go install github.com/InkyQuill/iview/cmd/iview@latest
+```
+
 ## Build
 
 ```sh

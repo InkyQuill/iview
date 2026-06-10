@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"iview/internal/app"
-	"iview/internal/render"
+	"github.com/InkyQuill/iview/internal/app"
+	"github.com/InkyQuill/iview/internal/render"
 )
 
 const version = "0.1.0"
