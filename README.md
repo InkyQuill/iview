@@ -1,5 +1,7 @@
 # iview
 
+![CodeRabbit Pull Request Reviews](https://img.shields.io/coderabbit/prs/github/InkyQuill/iview?utm_source=oss&utm_medium=github&utm_campaign=InkyQuill%2Fiview&labelColor=171717&color=FF570A&link=https%3A%2F%2Fcoderabbit.ai&label=CodeRabbit+Reviews)
+
 `iview` is a small terminal image viewer for Linux terminals with terminal image
 protocol support or ANSI color output.
 
